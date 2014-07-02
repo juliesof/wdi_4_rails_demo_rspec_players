@@ -11,7 +11,7 @@ feature 'top level feature- User views players' do
 
     #Capybara will take a snapshot and open it in a real browser
     #This is a debugging tool, like binding.pry so remove before shipping
-    save_and_open_page
+#    save_and_open_page
 
     players.each do |p|
       #.player is a css selector named .player
